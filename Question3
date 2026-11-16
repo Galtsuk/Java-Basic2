@@ -1,6 +1,11 @@
+import java.util.Scanner;
 public class Question3 {
-    public static void main(String[] args) {
-        System.out.println(calculateFactorial(6));
+    public static void main(String[] args)
+    {
+        System.out.println("Enter a num");
+        Scanner scanner = new Scanner(System.in);
+        int num = scanner.nextInt();
+        System.out.println(calculateFactorial(num));
     }
 
     public static int calculateFactorial(int number) {
