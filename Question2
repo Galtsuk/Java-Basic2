@@ -7,3 +7,4 @@ public class Question2 {
         return number % 2 == 0;
     }
 }
+
