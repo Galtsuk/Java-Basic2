@@ -6,10 +6,6 @@ public class Question10 {
     }
 
     public static int findRowWithMaxSum(int[][] arr) {
-        if (arr.length == 0) {
-            return -1;
-        }
-
         int maxSum = calculateArraySum(arr[0]);
         int maxIndex = 0;
 
