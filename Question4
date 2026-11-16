@@ -1,0 +1,28 @@
+public class Question4 {
+    public static void main(String[] args) {
+        int[] numbers = {1, 2, 3, 4, 5};
+
+        System.out.println(numbers);
+
+        int num = 5;
+        changeValue(num);
+        System.out.println(num);
+
+        changeArray(numbers);
+        printArray(numbers);
+    }
+
+    public static void changeValue(int num) {
+        num = 10;
+    }
+
+    public static void changeArray(int[] arr) {
+        arr[0] = 10;
+    }
+
+    public static void printArray(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i]);
+        }
+    }
+}
