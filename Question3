@@ -10,6 +10,7 @@ public class Question3 {
 
     public static int calculateFactorial(int number) {
         int factorial = 1;
+        number = Math.abs(number);
 
         for (int i = 1; i <= number; i++) {
             factorial *= i;
