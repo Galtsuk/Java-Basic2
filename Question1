@@ -7,3 +7,4 @@ public class Question1 {
         printHelloMessage("GA");
     }
 }
+
