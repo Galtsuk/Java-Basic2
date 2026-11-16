@@ -1,0 +1,9 @@
+public class Question1 {
+    public static void printHelloMessage(String name) {
+        System.out.printf("Hello %s!", name);
+    }
+
+    public static void main(String[] args) {
+        printHelloMessage("GA");
+    }
+}
